@@ -1,0 +1,20 @@
+Package: RLDDM
+Title: RL-DDM: A Reinforcement Learning Drift-Diffusion Model for Characterizing Decision-Making in Behavioral Tasks
+Version: 0.0.0.9000
+Authors@R: 
+    person("Yuan", "Bian", , "yuan.bian@alumni.utoronto.ca", role = c("aut", "cre"))
+    person("Xingche", "Guo", , "xig16121@uconn.edu", role = c("aut"))
+    person("Yuanjia", "Wang", , "yw2016@cumc.columbia.edu", role = c("aut"))
+Description: The `RLDDM` package provides a computational framework for modeling decision-making processes using a combination of reinforcement learning (RL) and drift-diffusion model (DDM). It is designed to capture the cognitive and behavioral dynamics of decision-making in tasks involving both choice and response time data. The package implements key components of RL and DDM, including parameter estimation, model fitting, and probabilistic predictions of decision outcomes, making it suitable for studying complex decision-making processes in cognitive neuroscience and behavioral psychology. The package includes functions for optimizing parameters using maximum likelihood estimation and handles parallel processing for efficiency in large datasets.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+        WienR,
+        parallel
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
